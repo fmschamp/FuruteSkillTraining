@@ -1,0 +1,9 @@
+Dataset used: Dataset-SA.csv
+Rows loaded: 205,052
+Columns: product_name, product_price, Rate, Review, Summary, Sentiment
+Rows retained after numeric cleaning of Rate and product_price and removal of missing key fields: 205,049
+Rows excluded due to invalid/missing key values: 3
+Unique products in summary: 958
+Rows with missing Summary: 11
+
+Note: The supplied Rate column contains some non-numeric product-name-like values; these are converted to missing values and excluded from the numeric aggregation. Mean rating and mean price are calculated for each product_name.
